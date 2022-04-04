@@ -1,0 +1,106 @@
+.mobile-block{
+    display:none
+}
+@media(max-width: 992px){
+    .card-product-grid .img-wrap{
+        height:200px
+    }
+    .card-product-list{
+        margin-bottom:20px
+    }
+    .card-product-list .img-wrap{
+        border-bottom:1px solid #dee2e6
+    }
+}
+@media all and (max-width: 768px){
+    .section-header .logo{
+        max-height:36px;
+        width:auto
+    }
+    .navbar-expand .navbar-collapse{
+        flex-direction:column
+    }
+    .gallery-wrap .thumbs-wrap{
+        margin-bottom:1rem;
+        white-space:nowrap;
+        overflow-x:auto
+    }
+    .mobile-order-first{
+        order:-1
+    }
+    .mobile-order-1{
+        order:1
+    }
+    .mobile-order-2{
+        order:2
+    }
+    .mobile-order-3{
+        order:3
+    }
+    .mobile-py{
+        padding-top:20px;
+        padding-bottom:20px
+    }
+    .mobile-pb{
+        padding-bottom:20px
+    }
+    .mobile-pt{
+        padding-top:20px
+    }
+}
+ 
+
+
+@media (min-width:320px)  {
+    .reg-from{
+     
+        display: flex;
+        justify-content: center;
+        padding: 32% 10%;
+    }
+    .book-sec{
+        margin-top: 2%;
+    }
+    .banner-2 h4{
+        font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    width: 100%;
+    
+    color: black;
+    }
+ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { 
+    .reg-from{
+     
+        display: flex;
+        justify-content: center;
+        padding: 10% 30%;
+    }
+ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { 
+    .reg-from{
+     
+        display: flex;
+        justify-content: center;
+        padding: 10% 30%;
+    }
+    .book-sec{
+        margin-top: -15%;
+    }
+    .banner-2 h4{
+        font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    width: 30%;
+    
+    color: #FFFFFF;
+    }
+ }

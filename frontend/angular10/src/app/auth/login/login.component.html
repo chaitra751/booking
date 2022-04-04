@@ -1,0 +1,59 @@
+
+<body class="login-sec">
+
+
+
+    <section>
+        <div class="container reg-from">
+
+            <div class="card login-card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col text-center top-login-logo">
+                            <img src="assets/images/logo-fresh-history 3 1.png" alt="">
+                        </div>
+                        <div class="col-12 mt-5">
+                            <h5 class="mt-5">Login</h5>
+                            <p class="text-muted">Please enter login details and start reading...</p>
+                        </div>
+                    </div>
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email ID</label>
+                            <input placeholder="eg. harryjohnson@yopmail.com" type="email" class="form-control"
+                                id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                        </div>
+                     
+
+                        <div class="form-password-toggle mb-3">
+                            <label class="form-label" for="basic-default-password32">Password</label>
+                            <div class="input-group input-group-merge">
+                                <input type="password" class="form-control bdr"  id="basic-default-password32"
+                                    placeholder="············" aria-describedby="basic-default-password">
+                                <span class="input-group-text cursor-pointer" id="basic-default-password"><i
+                                        class="bx bx-hide"></i></span>
+                            </div>
+                        </div>
+                       
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I agree to the terms and
+                                conditions.</label>
+                                <a routerLink="forget" class="text-right float-end">Forgot Password?</a>
+                        </div>
+                        <a href="index.html" type="submit" class="btn btn-primary w-100 login-btn">Log In</a>
+                        <br>
+                        <p class="text-center mt-3 mb-3">Don’t have an account?  <a routerLink="register">Sign up</a></p>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+<router-outlet></router-outlet>
